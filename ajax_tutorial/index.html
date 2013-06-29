@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AJAX-Tutorial</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<!-- Styles einbinden -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container well">
+			<div class="row">
+				<div class="span4">
+					<button id="ajaxCall_easy" class="btn btn-info">einfacher AJAX-Aufruf</button>
+				</div>
+				<div class="span4">
+					<button id="ajaxCall_template" class="btn btn-info">Template nachladen</button>
+				</div>
+				<div class="span4">
+					<div class="input-append pull-right control-group">
+						<input class="span2" id="inputNumber" name="inputNumber" type="text" placeholder="beliebige Ganzzahl">
+						<button id="ajaxCall_checkPrime" class="btn btn-info" type="button">Auf Primzahl prüfen</button>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div id="content">
+				<div class="alert alert-block">	
+				<h4>Info!</h4>
+					<p id="info-text">Zur Zeit ist kein nachgeladener Inhalt vorhanden!</p>
+				</div>
+			</div>
+		</div>
+		<!-- JavaScript einbinden -->
+		<script src="js/jquery-2.0.0.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/ajax.js"></script>
+	</body>
+</html>
