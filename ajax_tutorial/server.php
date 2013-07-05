@@ -15,6 +15,6 @@ require_once 'classes/AjaxController.php';
 // Neue Instanz des Controllers anlegen
 $ajaxController = new AjaxController();
 
-// Controller ausgefuehren
+// Controller ausfuehren
 echo $ajaxController->execute();
 ?>
