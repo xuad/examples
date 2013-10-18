@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MovieDatabaseModel.Store" Alias="Self" Provider="System.Data.SQLite" ProviderManifestToken="ISO8601" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="MovieDatabaseModelStoreContainer">
+    <EntitySet Name="Movies" EntityType="MovieDatabaseModel.Store.Movies" store:Type="Tables" />
+  </EntityContainer>
+  <EntityType Name="Movies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="integer" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="varchar" Nullable="false" />
+    <Property Name="Director" Type="varchar" Nullable="false" />
+    <Property Name="Playtime" Type="integer" Nullable="false" />
+  </EntityType>
+</Schema>

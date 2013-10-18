@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MovieDatabaseModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="MovieDatabaseEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Movies" EntityType="MovieDatabaseModel.Movies" />
+  </EntityContainer>
+  <EntityType Name="Movies">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="2147483647" Unicode="false" FixedLength="false" />
+    <Property Name="Director" Type="String" Nullable="false" MaxLength="2147483647" Unicode="false" FixedLength="false" />
+    <Property Name="Playtime" Type="Int64" Nullable="false" />
+  </EntityType>
+</Schema>

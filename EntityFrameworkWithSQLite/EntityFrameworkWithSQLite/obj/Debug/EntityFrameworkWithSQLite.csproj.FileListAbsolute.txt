@@ -1,0 +1,22 @@
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFrameworkWithSQLite.exe.config
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\MovieDatabase.s3db
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFrameworkWithSQLite.exe
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFrameworkWithSQLite.pdb
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFramework.dll
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFramework.xml
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\obj\Debug\EntityFrameworkWithSQLite.csprojResolveAssemblyReference.cache
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\obj\Debug\EntityFrameworkWithSQLite.exe
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\obj\Debug\EntityFrameworkWithSQLite.pdb
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\System.Data.SQLite.dll
+C:\examples\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\System.Data.SQLite.pdb
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFrameworkWithSQLite.exe.config
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\obj\Debug\EntityFrameworkWithSQLite.exe
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\obj\Debug\EntityFrameworkWithSQLite.pdb
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\MovieDatabase.s3db
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFrameworkWithSQLite.exe
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFrameworkWithSQLite.pdb
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFramework.dll
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\System.Data.SQLite.dll
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\EntityFramework.xml
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\bin\Debug\System.Data.SQLite.pdb
+E:\VS-Projekte (Offline)\EntityFrameworkWithSQLite\EntityFrameworkWithSQLite\obj\Debug\EntityFrameworkWithSQLite.csprojResolveAssemblyReference.cache
