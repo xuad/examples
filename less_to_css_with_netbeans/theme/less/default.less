@@ -1,0 +1,43 @@
+@darkWhite: #f4f4f4;
+@black: #000;
+
+.border-radius (@radius) {
+	border-radius: @radius;
+	-moz-border-radius: @radius;
+	-webkit-border-radius: @radius;
+}
+
+.boxStyle {
+    background: #fff;
+    .border-radius (10px);
+    box-shadow: 10px 10px 5px #000;
+    padding: 10px;
+}
+
+body {
+    background: @darkWhite;
+}
+
+#container {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    .boxStyle;    
+        
+    h1 {
+        color: @black;
+        text-align: center;
+    }
+    
+    p {
+        color: @black;
+    }
+    
+    a {
+        color: #ff9966;
+        
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}

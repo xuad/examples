@@ -1,0 +1,49 @@
+/* line 10, C:\xampp\htdocs\less_to_css_with_netbeans\theme\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/less_to_css_with_netbeans\/theme\/less\/default\.less}line{font-family:\0000310}}
+.boxStyle {
+  background: #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: 10px 10px 5px #000;
+  padding: 10px;
+}
+/* line 17, C:\xampp\htdocs\less_to_css_with_netbeans\theme\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/less_to_css_with_netbeans\/theme\/less\/default\.less}line{font-family:\0000317}}
+body {
+  background: #f4f4f4;
+}
+/* line 21, C:\xampp\htdocs\less_to_css_with_netbeans\theme\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/less_to_css_with_netbeans\/theme\/less\/default\.less}line{font-family:\0000321}}
+#container {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: 10px 10px 5px #000;
+  padding: 10px;
+}
+/* line 27, C:\xampp\htdocs\less_to_css_with_netbeans\theme\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/less_to_css_with_netbeans\/theme\/less\/default\.less}line{font-family:\0000327}}
+#container h1 {
+  color: #000000;
+  text-align: center;
+}
+/* line 32, C:\xampp\htdocs\less_to_css_with_netbeans\theme\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/less_to_css_with_netbeans\/theme\/less\/default\.less}line{font-family:\0000332}}
+#container p {
+  color: #000000;
+}
+/* line 36, C:\xampp\htdocs\less_to_css_with_netbeans\theme\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/less_to_css_with_netbeans\/theme\/less\/default\.less}line{font-family:\0000336}}
+#container a {
+  color: #ff9966;
+}
+/* line 39, C:\xampp\htdocs\less_to_css_with_netbeans\theme\less\default.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/less_to_css_with_netbeans\/theme\/less\/default\.less}line{font-family:\0000339}}
+#container a:hover {
+  font-weight: bold;
+}
