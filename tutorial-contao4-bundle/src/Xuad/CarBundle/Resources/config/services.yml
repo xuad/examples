@@ -1,0 +1,14 @@
+services:
+  kernel_bundle:
+    class: Xuad\CarBundle\XuadCarBundle
+
+  xuad_car.service.carservice:
+    class: Xuad\CarBundle\Service\CarService
+    arguments:
+    - '@doctrine.orm.default_entity_manager'
+
+  xuad_car.datacontainer.car:
+    class: Xuad\CarBundle\DataContainer\CarDataContainer
+    arguments:
+    - '@doctrine.orm.default_entity_manager'
+    - '@xuad_car.service.carservice'

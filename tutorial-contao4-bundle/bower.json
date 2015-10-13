@@ -1,0 +1,27 @@
+{
+  "name": "tutorial-contao4-bundle",
+  "version": "0.0.0",
+  "description": "tutorial contao4",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "tutorial",
+    "contao4"
+  ],
+  "authors": [
+    "Patrick Mosch"
+  ],
+  "license": "MIT",
+  "homepage": "http://xuad.net",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4"
+  }
+}

@@ -1,0 +1,12 @@
+body {
+	background: #ffffff;
+}
+
+#wrapper {
+	&.container {
+		min-height: 500px;
+		margin-top: 50px;
+		border-radius: 2px;
+		box-shadow: 0 0 24px 2px rgb(128,128,128);
+	}
+}

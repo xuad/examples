@@ -1,0 +1,30 @@
+# Cache and logs (Symfony2)
+/app/cache/*
+/app/logs/*
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+/system
+
+
+# Managed by Composer
+/app/bootstrap.php.cache
+/vendor/
+
+# Assets and user uploads
+/assets
+/web/assets
+/web/bundles/
+/web/uploads/
+/web/share
+/web/system
+
+# Sass
+.sass-cache/
+*.css.map
+
+*.iml
+.idea/
+
+/bower_components
+/node_modules

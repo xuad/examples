@@ -1,0 +1,25 @@
+{
+  "name": "tutorial-contao4-bundle",
+  "version": "0.0.0",
+  "description": "tutorial contao4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kaa@norma.uberspace.de:/home/kaa/git/repositories/tutorial-contao4-bundle.git"
+  },
+  "keywords": [
+    "contao4",
+    "tutorial"
+  ],
+  "author": "Patrick Mosch",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-sourcemaps": "~1.6.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-minify-css": "~1.2.1",
+    "gulp-sass": "~2.0.4"
+  }
+}
