@@ -15,8 +15,8 @@ use Doctrine\ORM\EntityManager;
 use Xuad\CarBundle\Service\CarService;
 
 /**
- * Class CarDataContainer
- * @package Xuad\CarBundle\DataContainer
+ * @ORM\Entity
+ * @ORM\Table(name="tl_car")
  */
 class CarDataContainer
 {
