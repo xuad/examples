@@ -1,11 +1,3 @@
 <div class="<?= $this->class; ?> block"<?= $this->cssID; ?>>
-	<div class="car-list">
-		<?php if(count($this->carList) > 0): ?>
-			<ul>
-				<?php foreach($this->carList as $car): /** @var \Xuad\CarBundle\Entity\Car $car */ ?>
-					<li><strong><?= $car->getBrand() ?> </strong><?= $car->getName() ?></li>
-				<?php endforeach; ?>
-			</ul>
-		<?php endif; ?>
-	</div>
+	<?= $this->renderedTwig ?>
 </div>

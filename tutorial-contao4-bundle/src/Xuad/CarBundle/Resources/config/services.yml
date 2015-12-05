@@ -5,10 +5,15 @@ services:
   xuad_car.service.carservice:
     class: Xuad\CarBundle\Service\CarService
     arguments:
-    - '@doctrine.orm.default_entity_manager'
+     - '@doctrine.orm.entity_manager'
+#    - '@doctrine.orm.default_entity_manager'
 
   xuad_car.datacontainer.car:
     class: Xuad\CarBundle\DataContainer\CarDataContainer
     arguments:
-    - '@doctrine.orm.default_entity_manager'
+    - '@doctrine.orm.entity_manager'
     - '@xuad_car.service.carservice'
+    - '@xuad_car.service.stringutil'
+
+  xuad_car.service.stringutil:
+    class: Xuad\CarBundle\Service\StringUtilService

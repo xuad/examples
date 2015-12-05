@@ -13,10 +13,11 @@ namespace Xuad\CarBundle\DataContainer;
 use Contao\DataContainer;
 use Doctrine\ORM\EntityManager;
 use Xuad\CarBundle\Service\CarService;
+use Xuad\CarBundle\Service\StringUtilService;
 
 /**
- * @ORM\Entity
- * @ORM\Table(name="tl_car")
+ * Class CarDataContainer
+ * @package Xuad\CarBundle\DataContainer
  */
 class CarDataContainer
 {
@@ -31,15 +32,25 @@ class CarDataContainer
 	private $carService;
 
 	/**
+	 * @var StringUtilService
+	 */
+	private $stringUtilService;
+
+	/**
 	 * Constructor.
 	 *
 	 * @param \Doctrine\ORM\EntityManager $entityManager
 	 * @param \Xuad\CarBundle\Service\CarService $carService
+	 * @param \Xuad\CarBundle\Service\StringUtilService $stringUtilService
 	 */
-	public function __construct(EntityManager $entityManager, CarService  $carService)
+	public function __construct(
+		EntityManager $entityManager,
+		CarService $carService,
+		StringUtilService $stringUtilService)
 	{
 		$this->entityManager = $entityManager;
 		$this->carService = $carService;
+		$this->stringUtilService = $stringUtilService;
 	}
 
 	/**
@@ -59,7 +70,7 @@ class CarDataContainer
 		{
 			$autoAlias = true;
 
-			$varValue = \StringUtil::generateAlias($dc->activeRecord->brand . '-' . $dc->activeRecord->name);
+			$varValue = $this->stringUtilService->generateAlias($dc->activeRecord->brand . '-' . $dc->activeRecord->name);
 		}
 
 		$carList = $this->carService->findByAlias($varValue);

@@ -25,6 +25,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\MonologBundle\MonologBundle(),
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
+            new Lexik\Bundle\MaintenanceBundle\LexikMaintenanceBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Contao\CoreBundle\ContaoCoreBundle(),
             new Contao\CalendarBundle\ContaoCalendarBundle(),
@@ -33,13 +34,13 @@ class AppKernel extends Kernel
             new Contao\ListingBundle\ContaoListingBundle(),
             new Contao\NewsBundle\ContaoNewsBundle(),
             new Contao\NewsletterBundle\ContaoNewsletterBundle(),
-            new Xuad\CarBundle\XuadCarBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'])) {
             $bundles[] = new Symfony\Bundle\DebugBundle\DebugBundle();
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
+            $bundles[] = new Contao\InstallationBundle\ContaoInstallationBundle();
         }
 
         return $bundles;

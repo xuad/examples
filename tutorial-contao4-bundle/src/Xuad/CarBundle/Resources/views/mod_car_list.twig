@@ -1,0 +1,9 @@
+<div class="car-list">
+    {% if carList %}
+        <ul>
+            {% for car in carList %}
+                <li>{{ car.getBrand }} {{ car.getName }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>

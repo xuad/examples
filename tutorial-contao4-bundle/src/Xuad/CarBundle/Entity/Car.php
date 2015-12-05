@@ -13,8 +13,8 @@ namespace Xuad\CarBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * Class Car
- * @package Xuad\CarBundle\Entity
+ * @ORM\Entity
+ * @ORM\Table(name="tl_car")
  */
 class Car
 {
